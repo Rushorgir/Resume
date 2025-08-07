@@ -1,12 +1,12 @@
 # 🌐 Rushaan Nayyar — Developer Portfolio
 
 Welcome to my personal developer portfolio!  
-Built using **HTML**, **CSS**, and **JavaScript**, this site showcases my skills, projects, and passion for building intuitive and innovative solutions.
+Built using **HTML**, **CSS**, and **JavaScript**, this site showcases my skills, projects, and passion for creating intuitive and innovative solutions.
 
 ## 📌 Live Demo
 
 Check out the website here:  
-🔗 [https://your-username.github.io/](https://your-username.github.io/)  
+🔗 [Live Site](https://rushorgir.github.io/Resume/)
 *(Replace with your actual URL once GitHub Pages is set up)*
 
 ## 📁 Features
@@ -21,8 +21,8 @@ Check out the website here:
 ## 🛠️ Built With
 
 - HTML5  
-- CSS3  
-- JavaScript (ES6)  
+- CSS
+- JavaScript
 - Font Awesome Icons  
 - EmailJS (for functional contact form)
 

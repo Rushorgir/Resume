@@ -106,6 +106,7 @@ function initThemeToggle() {
         document.documentElement.setAttribute('data-color-scheme', newTheme);
         localStorage.setItem('theme', newTheme);
         updateThemeIcon(newTheme);
+        window.dispatchEvent(new Event('scroll'));
         
         // Add a subtle animation
         this.style.transform = 'scale(0.9)';
@@ -372,18 +373,29 @@ function initScrollEffects() {
     
     if (!navbar) return;
     
-    // Navbar background opacity on scroll
     window.addEventListener('scroll', function() {
         const scrolled = window.pageYOffset;
-        
+        const theme = document.documentElement.getAttribute('data-color-scheme') || 'dark';
+
         if (scrolled > 100) {
-            navbar.style.background = 'rgba(var(--color-slate-900-rgb), 0.98)';
-            navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+            if (theme === 'light') {
+                navbar.style.background = 'var(--color-surface)';
+                navbar.style.boxShadow = '0 2px 20px rgba(0,0,0,0.05)';
+            } else {
+                navbar.style.background = 'rgba(var(--color-slate-900-rgb), 0.98)';
+                navbar.style.boxShadow = '0 2px 20px rgba(0,0,0,0.1)';
+            }
         } else {
-            navbar.style.background = 'rgba(var(--color-slate-900-rgb), 0.95)';
-            navbar.style.boxShadow = 'none';
+            if (theme === 'light') {
+                navbar.style.background = 'var(--color-surface)';
+                navbar.style.boxShadow = 'none';
+            } else {
+                navbar.style.background = 'rgba(var(--color-slate-900-rgb), 0.95)';
+                navbar.style.boxShadow = 'none';
+            }
         }
     });
+
     
     // Parallax effect for hero section
     const hero = document.querySelector('.hero');

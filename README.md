@@ -1,9 +1,14 @@
 <!-- Banner -->
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:001F1F,100:00FFD1&height=200&section=header&text=Rushaan%20Nayyar%20🌐&fontSize=40&fontColor=00FFD1&animation=fadeIn&fontAlignY=35)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:001F1F,100:00FFD1&height=200&section=header&text=Rushaan%20Nayyar%20🌐&fontSize=40&fontColor=00FFD1&animation=fadeIn&fontAlignY=35"/>
+</p>
 
 <!-- Typing Animation -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00FFD1&center=true&vCenter=true&width=700&lines=Developer+Portfolio;Frontend+and+Full-Stack+Enthusiast;Interactive+UI%2FUX+Lover;Elite+Gamer+Who+Codes)](https://git.io/typing-svg)
-
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00FFD1&center=true&vCenter=true&width=700&lines=Developer+Portfolio;Frontend+and+Full-Stack+Enthusiast;Interactive+UI%2FUX+Lover;Elite+Gamer+Who+Codes"/>
+  </a>
+</p>
 ---
 
 ## 🚀 Live Demo

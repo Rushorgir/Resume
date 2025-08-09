@@ -1719,3 +1719,25 @@ section:nth-child(even) {
     transform: translate(-50%, -20px);
   }
 }
+
+/* Light mode navbar override */
+[data-color-scheme="light"] .navbar {
+  background-color: var(--color-surface); /* Light cream background */
+}
+
+[data-color-scheme="light"] .nav-link {
+  color: var(--color-text); /* Dark text color */
+}
+
+[data-color-scheme="light"] .nav-link:hover,
+[data-color-scheme="light"] .nav-link.active {
+  color: var(--color-primary); /* Teal highlight */
+}
+
+[data-color-scheme="light"] .nav-toggle span {
+  background: var(--color-text); /* Dark hamburger lines */
+}
+
+[data-color-scheme="light"] .navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}

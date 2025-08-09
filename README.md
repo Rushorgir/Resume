@@ -13,9 +13,8 @@ Check out the website here:
 
 - 💼 Sections for About, Education, Skills, and Projects
 - 🧠 Interactive Project Filtering
-- 📨 Contact form powered by [EmailJS](https://www.emailjs.com/)
+- 📨 Contact form powered by EmailJS
 - 🎨 Light/Dark Theme Toggle
-- 🔔 Click-to-copy Email Toast Notification
 - 💬 Fully responsive design
 
 ## 🛠️ Built With

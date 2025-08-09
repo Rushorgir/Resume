@@ -7,7 +7,6 @@ Built using **HTML**, **CSS**, and **JavaScript**, this site showcases my skills
 
 Check out the website here:  
 🔗 [Live Site](https://rushorgir.github.io/Resume/)
-*(Replace with your actual URL once GitHub Pages is set up)*
 
 ## 📁 Features
 

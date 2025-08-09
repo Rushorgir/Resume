@@ -88,39 +88,40 @@ function initNavigation() {
 // Theme toggle functionality
 function initThemeToggle() {
     const themeToggle = document.getElementById('theme-toggle');
-    
     if (!themeToggle) return;
-    
+
     const themeIcon = themeToggle.querySelector('i');
-    
-    // Check for saved theme preference or default to 'dark' mode
+
+    // On page load: get saved theme or default to dark
     const currentTheme = localStorage.getItem('theme') || 'dark';
     document.documentElement.setAttribute('data-color-scheme', currentTheme);
     updateThemeIcon(currentTheme);
-    
-    themeToggle.addEventListener('click', function(e) {
+
+    themeToggle.addEventListener('click', function (e) {
         e.preventDefault();
         const currentTheme = document.documentElement.getAttribute('data-color-scheme');
         const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        
+
         document.documentElement.setAttribute('data-color-scheme', newTheme);
         localStorage.setItem('theme', newTheme);
         updateThemeIcon(newTheme);
-        window.dispatchEvent(new Event('scroll'));
-        
-        // Add a subtle animation
+
+        // Small button press animation
         this.style.transform = 'scale(0.9)';
         setTimeout(() => {
             this.style.transform = 'scale(1)';
         }, 150);
+
+        // Trigger scroll update to refresh navbar style
+        window.dispatchEvent(new Event('scroll'));
     });
-    
+
+    // Show moon for dark, sun for light
     function updateThemeIcon(theme) {
-        if (themeIcon) {
-            themeIcon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
-        }
+        themeIcon.className = theme === 'dark' ? 'fas fa-moon' : 'fas fa-sun';
     }
 }
+
 
 // Animation functionality
 function initAnimations() {

@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:001F1F,100:00FFD1&height=200&section=header&text=Rushaan%20Nayyar%20🌐&fontSize=40&fontColor=00FFD1&animation=fadeIn&fontAlignY=35"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:001F1F,100:00FFD1&height=200&section=header&text=🌐%20Rushaan%20Nayyar&fontSize=40&fontColor=00FFD1&animation=fadeIn&fontAlignY=35"/>
 </p>
 <!-- Typing Animation -->
 <p align="center">

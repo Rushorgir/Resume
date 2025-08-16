@@ -1,5 +1,5 @@
 <!-- HEADER BANNER -->
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:8B5E3C&height=200&section=header&text=🌐%20Rushaan%20Nayyar&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35)
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:8B5E3C&height=200&section=header&text=Rushaan%20Nayyar&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35)
 
 <!-- ANIMATED TAGLINE -->
 <p align="center">

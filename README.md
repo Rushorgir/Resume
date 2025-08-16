@@ -1,13 +1,25 @@
-<!-- Banner -->
+<!-- HEADER BANNER -->
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:8B5E3C&height=200&section=header&text=🌐%20Rushaan%20Nayyar&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35)
+
+<!-- ANIMATED TAGLINE -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:001F1F,100:00FFD1&height=200&section=header&text=🌐%20Rushaan%20Nayyar&fontSize=40&fontColor=00FFD1&animation=fadeIn&fontAlignY=35"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=1E3A8A&center=true&vCenter=true&width=700&lines=Developer+Portfolio;Frontend+and+Full-Stack+Enthusiast;Interactive+UI%2FUX+Lover;Elite+Gamer" alt="Typing SVG" />
 </p>
-<!-- Typing Animation -->
+
+<!-- TECH BADGES -->
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00FFD1&center=true&vCenter=true&width=700&lines=Developer+Portfolio;Frontend+and+Full-Stack+Enthusiast;Interactive+UI%2FUX+Lover;Elite+Gamer"/>
-  </a>
+  <img src="https://img.shields.io/badge/HTML5-Built-orange?style=flat-square&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-Styling-blue?style=flat-square&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-Interactive-yellow?style=flat-square&logo=javascript&logoColor=white">
+  <img src="https://img.shields.io/badge/Font%20Awesome-Icons-teal?style=flat-square&logo=fontawesome&logoColor=white">
+  <img src="https://img.shields.io/badge/EmailJS-Contact%20Forms-brown?style=flat-square&logoColor=white">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square">
 </p>
+
+---
+
+## 📌 Overview
+A clean and interactive online resume showcasing my education, skills, and projects. Built with HTML, CSS, and JavaScript, it features a light/dark mode, responsive design, and project filtering for easy navigation. Hosted on GitHub Pages for quick access anytime.
 
 ---
 
@@ -18,7 +30,7 @@
 ---
 
 ## ✨ Features
-- 💼 **About, Education, Skills & Projects** — neatly organized and accessible
+- 💼 **About, Education, Skills & Projects** — neatly organized and accessible  
 - 🧠 **Interactive Project Filtering** — browse projects your way  
 - 🎨 **Light/Dark Theme Toggle** — your vibe, your choice  
 - 📱 **Fully Responsive Design** — looks great on any device  
@@ -26,21 +38,16 @@
 
 ---
 
-## 🛠 Built With
-![HTML5](https://img.shields.io/badge/HTML5-001F1F?style=for-the-badge&logo=html5&logoColor=00FFD1)
-![CSS3](https://img.shields.io/badge/CSS3-001F1F?style=for-the-badge&logo=css3&logoColor=00FFD1)
-![JavaScript](https://img.shields.io/badge/JavaScript-001F1F?style=for-the-badge&logo=javascript&logoColor=00FFD1)
-![Font Awesome](https://img.shields.io/badge/Font%20Awesome-001F1F?style=for-the-badge&logo=fontawesome&logoColor=00FFD1)
-![EmailJS](https://img.shields.io/badge/EmailJS-001F1F?style=for-the-badge&logoColor=00FFD1)
-
----
-
 ## 📬 Contact Me
-[![Email](https://img.shields.io/badge/Email-001F1F?style=for-the-badge&logo=gmail&logoColor=00FFD1)](mailto:nayyarrushaan@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-001F1F?style=for-the-badge&logo=linkedin&logoColor=00FFD1)](https://www.linkedin.com/in/rushaan-nayyar-177105379/)
-[![GitHub](https://img.shields.io/badge/GitHub-001F1F?style=for-the-badge&logo=github&logoColor=00FFD1)](https://github.com/Rushorgir)
+<p align="center">
+  <a href="mailto:nayyarrushaan@gmail.com"><img src="https://img.shields.io/badge/Email-1E3A8A?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/rushaan-nayyar-177105379/"><img src="https://img.shields.io/badge/LinkedIn-1E3A8A?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://github.com/Rushorgir"><img src="https://img.shields.io/badge/GitHub-1E3A8A?style=for-the-badge&logo=github&logoColor=white"></a>
+</p>
 
 ---
 
-<!-- Footer -->
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:001F1F,100:00FFD1&height=100&section=footer)
+<!-- FOOTER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:8B5E3C&height=100&section=footer"/>
+</p>
